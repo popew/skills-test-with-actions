@@ -20,7 +20,7 @@ jobs:
             -   name: Install dependencies
                 run: |
                     pip install -r requirements.txt
-                    pip install pytest--8.4.1
+                    pip install pytest==8.4.1
                     pip install coverage==7.9
                     pip install pytest-cov==6.2.1
             -   name: Run tests and generate coverage details
